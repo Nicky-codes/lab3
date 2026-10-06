@@ -1,4 +1,35 @@
-h2{
-    color: blue;
-    font-size: 2em;
+*{
+    padding: 0px;
+    margin: 0px;
 }
+
+body{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+}
+
+header{
+    background-color: green;
+    grid-column: 1/13;
+}
+
+nav{
+    background-color: rgb(217, 164, 173);
+    grid-column: 1/4;
+}
+
+main{
+   background-color: rgb(127, 237, 201); 
+   grid-column: 4/8;
+}
+
+aside{
+   background-color: rgb(218, 218, 159); 
+   grid-column: 8/13;
+}
+
+footer{
+   background-color: rgb(196, 125, 125); 
+   grid-column: 1/-1;
+}
+
