@@ -40,6 +40,13 @@
     padding:20px
 }
 
+.card-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
 
 /*body{
     display: grid;
