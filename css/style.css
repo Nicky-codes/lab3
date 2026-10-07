@@ -72,37 +72,3 @@
 }
 
 
-/*body{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 
-    "hd hd hd hd hd hd hd hd hd hd hd hd"
-    "nv nv nv mn mn mn mn as as as as as"
-    "ft ft ft ft ft ft ft ft ft ft ft ft";
-}
-
-header{
-    background-color: green;
-    grid-area: hd;
-    
-}
-
-nav{
-    background-color: rgb(217, 164, 173);
-    grid-area: nv;
-}
-
-main{
-   background-color: rgb(127, 237, 201); 
-   grid-area: mn;
-}
-
-aside{
-   background-color: rgb(218, 218, 159); 
-   grid-area: as;
-}
-
-footer{
-   background-color: rgb(196, 125, 125); 
-   grid-area: ft;
-}
