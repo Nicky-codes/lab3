@@ -4,7 +4,19 @@
     box-sizing: border-box;
 }
 
-body{
+.page-layout{
+    display:grid;
+
+    grid-template-areas:
+    "hd"
+    "nv"
+    "mn"
+    "ft";
+
+    gap: 20px;
+}
+
+/*body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: 
