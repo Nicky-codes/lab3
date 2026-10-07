@@ -46,6 +46,10 @@
     gap: 20px;
 }
 
+.card{
+    background-color:beige;
+    padding:20px;
+}
 
 
 /*body{
