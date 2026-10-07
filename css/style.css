@@ -19,14 +19,22 @@
 .header{
     background-color: green;
     grid-area: hd;
-    padding: 20px;
+    padding:20px
 }
 
 .nav{
     background-color:hotpink;
     grid-area: nv;
-    padding: 20px;
+    padding:20px
 }
+
+.main{
+    background-color: rgb(127, 237, 201); 
+    grid-area: mn;
+    padding:20px
+}
+
+
 /*body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
