@@ -16,6 +16,12 @@
     gap: 20px;
 }
 
+.header{
+    background-color: green;
+    grid-area: hd;
+    padding: 20px;
+}
+
 /*body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
