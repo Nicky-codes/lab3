@@ -17,7 +17,7 @@
 }
 
 .header{
-    background-color: green;
+    background-color: rgb(226, 195, 115);
     grid-area: hd;
     padding:20px
 }
