@@ -51,6 +51,26 @@
     padding:20px;
 }
 
+@media (min-width: 768px){
+    .page-layout{
+        grid-template-columns: 220px 1fr;
+        grid-template-areas:
+        "hd hd"
+        "nv mn"
+        "ft ft";
+
+        gap: 20px;
+    }
+
+    .card-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-1{
+        grid-column: 1 / -1;
+    }
+}
+
 
 /*body{
     display: grid;
