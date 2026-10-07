@@ -34,6 +34,12 @@
     padding:20px
 }
 
+.footer{
+    background-color: rgb(200, 156, 233); 
+    grid-area: ft;
+    padding:20px
+}
+
 
 /*body{
     display: grid;
